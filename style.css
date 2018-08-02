@@ -1,0 +1,119 @@
+@font-face { font-family: 'PT Sans', sans-serif; }
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+td{
+    width: 25%;
+    text-align: center;
+    border: 10px solid white;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+#header {
+    color: rgba(0,0,0,.8);
+    text-align:center;
+    padding:1px;
+    font-family: PT Sans;
+    font-size: 15px;
+}
+
+h2 {
+    width: 550px;
+    margin: auto;
+    border-width: 0.5px 0px 0.5px 0px;
+    border-color: gray;
+    border-style: solid;
+    color:black;
+    text-align:center;
+    padding:2px;
+    font-family: PT Sans;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 25px;
+/*    border-width: 4px 4px 4px 4px;
+    border-color: rgb(0,0,0);
+    border-style: solid*/
+}
+
+img.imgp {
+    border-radius: 0px !important;
+/*    border-width: 4px 4px 4px 4px;
+    border-color: rgb(0,0,0);
+    border-style: solid*/
+}
+
+
+#section {
+    display:flex;
+    width: 200px;
+    padding:40px;
+    margin: auto;
+    width: 500px;
+    border-width: 0px 0px 0px 0px;
+    border-color: gray;
+    border-style: dotted;
+    font-family: PT Sans;
+    font-size: 13px;
+}
+
+
+#sectionmid {
+    display:flex;
+    width: 200px;
+    padding:40px;
+    margin: auto;
+    width: 500px;
+    border-width: 0.5px 0px 0.5px 0px;
+    border-color: gray;
+    border-style: dotted;
+    font-family: PT Sans;
+    font-size: 12.5px;
+}
+
+#left
+{
+    flex:1;
+    height: 150px;
+    margin: auto;
+}
+
+#right
+{
+    flex:2;
+    color: black;
+    margin:auto;
+    margin-left: 30px;
+    padding:2px;
+}
+
+#left2
+{
+    flex:2;
+    color: black;
+    margin:auto;
+    margin-right: 30px;
+    padding:2px;
+    text-align:right;
+}
+
+#right2
+{
+    flex:1;
+    height: 150px;
+    margin: auto;
+}
+
+.clear
+{
+    clear: both;
+}
