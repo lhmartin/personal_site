@@ -33,7 +33,7 @@ h2 {
     border-style: solid;
     color:black;
     text-align:center;
-    padding:2px;
+    padding:3px;
     font-family: PT Sans;
     font-size: 20px;
 }
@@ -73,7 +73,7 @@ img.imgp {
     padding:40px;
     margin: auto;
     width: 500px;
-    border-width: 0.5px 0px 0.5px 0px;
+    border-width: 0.0px 0px 0.0px 0px;
     border-color: gray;
     border-style: dotted;
     font-family: PT Sans;
