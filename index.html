@@ -1,169 +1,289 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-	</head>
-	<body>
-		<div id="header">
-			<h1> Luke  Martin </h1>
-		</div>
-		<h2>About</h2>
-		<div id="section">
-			<div id="left2">
-				<center>
-				<img src="images/headshot.jpg", id="portrait", width="150px", height = "150px">
-				</center>
-			</div>
-			<div id = "right">
-				Welcome to my website!
-				<br>
-				<br>
-				My name is Luke Martin, I am a Electrical Engineer turned Machine Learning Practitioner. Currently I work at Buisness Modelling Associates, applying machine learning to buisnesss problems. 
-				
-				Typically to model and forecast aspects of a company's core business.
-
-				<br>
-				<br>
-				<br>
-				<b>Email: </b>
-				<br>
-				<script> gen_mail_to_link("contact", "lukeheinmartin.com","Hi") </script>
-				<br>
-				
-			</div>
-		</div>
-	</p>
-	<p>
-		<h2>Personal Projects</h2>
+<head>
+    <style>
+        body {
+            margin: 10px;
+            font-family: 'Abel';
+            width: 800px;
+        }
 
 
-			<div id="section">
-					<div id="left">
-						<img src="images/PML.png" id = "img", width="100%", height = "100%">
-					</div>
-					<div id = "right">
-					<b><a href = "https://github.com/lhmartin/PML">Python Machine Learning Library</a></b>
-					<br>
-					Created a custom Python library capable of building neural and convolutional networks. Has support for sigmoid, ReLu, and softmax activation functions, L1 and L2 regularization, and convolutional and pooling layers.<p>
-						<b>Language and Tools</b> <br> Python, Numpy
-					</div>
-					
-			</div>
+        .topnav {
+            overflow: hidden;
+            padding-bottom: 36px;
+            padding-left: 36px;
+        }
 
-			<div id="section">
-				<div id = "left">	
-					<img src="images/cpps.jpg" id = "img", width="100%", height = "100%">
-				</div>
-				<div id = "right">
-				<b><a href = ""> Competitive Programming and Problem Solving</a></b><br>
-					Competed in multiple algorithmic coding competitions including Google Hash- code. Completed dozens of algorithmic problems on the internal training server.
-				<p><b>Language and Tools</b><br>  C++, Java</div>
-			</div>
+        .hover-title {
+            display: inline-block;
+            pointer-events: auto;
+            cursor: pointer;
+        }
 
-			<div id="section">
-				<div id="left">
-						<img src="images/ctw.png" id = "img", width="100%", height = "100%">
-					</div>
-					<div id = "right">
+        .hide {
+            display: none;
+        }
 
-					<b><a href = "https://github.com/lhmartin/CTW">Context Tree Weighting - Bachelor End Project</a></b><br>
-					Implemented a compression algorithm known as context tree weighting for the
-purpose of analysing and compressing DNA sequences.  <p>
-						<b>Language and Tools</b> <br> Python
-					</div>
-					
-				</div>
+        .show {
+            display: block !important;
+        }
+
+        .bold {
+            font-weight: 1500px;
+            text-decoration: underline;
+        }
 
 
-				<h2>Education</h2>
+        .parent {
+            columns: 3 auto;
+            padding-left: 36px;
+        }
 
-				<div id="section">
-					<div id="left">
-						<img src="images/tue.png", id="img" width="150px", height = "150px">
-					</div>
-					<div id = "right">
-						<b><a href = ""> Eindhoven University of Technology - BSc: Electrical Engineering </a></b><br>
-						GPA: 7.5/10
-						<br>
-						
-						<br>
-						Graduated with Honors.
-						<br>
-						Coursework: Artificial Intelligence, Embedded Systems, Electronic Circuits and Design, Technology Entrepeneurship, Calculus and Linear Algebra, Web Technologies, Logic and Set Theory, Algorithms, Data-Structures
-						
-						<br><br> <b>
-						<a href = "https://www.tue.nl/en/"> School Website</a> <br>  </b>
-					</div>
-					
-				</div>
+        .item {
+            padding-top: 36px;
+        }
 
-
-				<div id="section">
-					<div id="left">
-						<img src="images/zis.jpg", id="img" width="150px", height = "150px">
-					</div>
-					<div id = "right">
-						<b><a href = "">Zurich International School</a></b><br>
-						Description of school and more information
-						
-						<br><br> <b>
-						<a href = "http://zis.ch/"> School Website</a> <br>  </b>
-					</div>
-					
-				</div>
-
-
-				<div id="clear"></div>
+        img{
+            max-width:220px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+  
+<div class="topnav">
+    <h1> Nicole Martin
+    <div class="hover-title" id="makes_button" onclick="toggleClass('makes', 'switch')" onmouseover="toggleClass('makes', 'show')" onmouseout="toggleClass('makes', 'hide')"> 
+    makes
+    </div>
+    &
+    <div class="hover-title" id="edits_button" onclick="toggleClass('edits', 'switch')" onmouseover="toggleClass('edits', 'show')" onmouseout="toggleClass('edits', 'hide')"> 
+    edits
+    </div>
+    <div class="hover-title" id="written_button"  onclick="toggleClass('written', 'switch')" onmouseover="toggleClass('written', 'show')" onmouseout="toggleClass('written', 'hide')"> 
+    written
+    </div>
+    &
+    <div class="hover-title" id="visual_button" onclick="toggleClass('visual', 'switch')" onmouseover="toggleClass('visual', 'show')" onmouseout="toggleClass('visual', 'hide')"> 
+    visual
+    </div> 
+    <br/>
+    representations of new ideas, in the context of  <br/>
+    contemporary art. </h1>
+</div>
 
 
-				<h2><center>Work Experience</center></h2>
-				
-				<div id="section">
-						<div id="left">
-							<img src="images/bma.png" id = "img", width="100%", height = "100%">
-						</div>
-						<div id = "right">
-						<b><a href = "https://www.businessmodelling.com/">Junior Developer/Modeller  - Business Modelling Associates</a></b>
-						<br>
-						<b>2018 - Present</b>
-						<br>
-						Lead the implementation of a deep learning regression model to predict the movement of cash transfers. Worked with over two hundred thousand points of historical data, the model’s forecast outperforms the existing standard bytwenty percent. Improved a client’s forecasting of new bill orders from the South African central bank using a xGBoost model by an average of forty percent
-						<br>
-						
-						</div>
-						
-				</div>
+<div class="parent hide hover-image makes"  id=makes>
+    <div class="column"> 
+        <div class="item"> 
+            <img src=" https://i0.wp.com/makezine.com/wp-content/uploads/2013/01/make_logo_rgb.jpg?fit=1024%2C768&ssl=1">
+        </div>
+    </div>
+   
+</div>
 
-				<div id="section">
-					<div id = "left">	
-						<img src="images/neevoh.jpg" id = "img", width="100%", height = "100%">
-					</div>
-					<div id = "right">
-					<br><a href = "">Cofounder - Neevoh</a></b><br>
-					<b>2016 - 2017</b>
-					<br>
-					<br>
-					Created and worked as the lead technical developer at an internet of things focused business. Wrote software and created Arduino based solutions for various clients. 
-					Projects included a management software for our IoT devices and the creation of technically enabled, Arduino controlled puzzles for multiple Escape Room enterprises in the Netherlands	
-					</div>
-				</div>
+<div class="parent hide hover-image edits" id=edits>   
+    <div class="column"> 
+        <div class="item"> 
+            <img src="https://www.nicolemartin.info/wp-content/uploads/2021/08/2021-Flesh-Install-copy-1-scaled.jpg">
+        </div>
+    </div>
 
-				<div id="section">
-					<div id="left">
-							<img src="images/sensus.jpg" id = "img2", width="100%", height = "100%">
-						</div>
-						<div id = "right">
+</div>
 
-						<b><a href = "www.sensus.org">Chariman - SensUs</a></b><br>
-						<b> 2015-2016 </b><br><br>
-						Led a group of honors students as chairman to organize the first year of a student competition on molecular bio-sensing for healthcare applications. Responsibilities included developing overall strategy, group management and leadership, securing funding, planning, budgeting, and delegation of tasks. <p>
-							<b>Language and Tools</b> <br> Python
-						</div>
-						
-					</div>
+<div class="parent hide hover-image written"  id="written">
+    <div class="column"> 
+        <div class="item">
+            <img src="https://www.nicolemartin.info/wp-content/uploads/2021/08/RFC-block-2.jpg">
+        </div>
+    </div>
+</div>
 
-			</p>
-		</p>
-	</body>
-</html>
+<div class="parent hide hover-image visual"  id="visual">
+    <div class="column">
+        <div class="item">
+            <img src="https://www.nicolemartin.info/wp-content/uploads/2021/08/come-in-green.jpg">
+        </div>
+    </div>
+</div>
+
+
+<div class="parent hide hover-image all"  id="visual">
+    <div class="column">
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ALL_logo.svg">
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+  
+	var preview = {
+      "makes" : false,
+      "edits" : false,
+      "written" : false,
+      "visual" : false,
+    };
+
+    var locked_in = {
+      "makes" : false,
+      "edits" : false,
+      "written" : false,
+      "visual" : false,
+    };
+
+    var clicked = {
+      "makes" : false,
+      "edits" : false,
+      "written" : false,
+      "visual" : false,
+    };
+
+    var opposites = {
+      "makes" : "edits",
+      "edits" : "makes",
+      "visual" : "written" ,
+      "written" : "visual",
+    }
+    var complements = {
+      "makes" : ["visual", "written"],
+      "edits" : ["visual", "written"],
+      "visual" : ["makes", "edits"],
+      "written" : ["makes", "edits"]
+    }
+  
+  	function updateView(){
+      classToAdd = "show"
+
+      let show_all = true
+    
+      for (let k in preview){
+
+        let comp_status = false
+        for(var i = 0; i < complements[k].length; i++){
+                com = complements[k][i]
+                comp_status = comp_status || locked_in[com] || clicked[com] || preview[com]
+        }
+        if(!comp_status){
+            clicked[k] = false
+            locked_in[k] = false
+            preview[k] = false
+        }
+
+        var elements = document.getElementsByClassName(k);
+        var but = document.getElementById(k + "_button");
+        for(var i = 0; i < elements.length; i++) {
+
+            state = preview[k] || locked_in[k] || clicked[k]
+
+            var el = elements[i]
+            var classes = el.className;
+            var but_classes = but.className;
+        
+            if (state && !classes.includes(classToAdd)){
+                el.className += " " + classToAdd;
+                if (!but_classes.includes("bold")){
+                    but.className += " bold"
+                    }
+                }
+            else if (!state){
+                clses = classes.split(" ")
+                for(var i = 0; i < clses.length; i++){
+                    if(state){
+                        continue;
+                    }
+                }
+                el.className = classes.replace(" " + classToAdd, "");
+                but.className = but_classes.replace(" bold", "");
+                }
+            }
+        }  
+
+        for (let k in preview){
+            show_all = show_all && (locked_in[k] || clicked[k])
+
+            if(!show_all){
+                var elements = document.getElementsByClassName("all");
+                for(var i = 0; i < elements.length; i++) {
+                    var el = elements[i]
+
+                    var classes = el.className;
+                    el.className = classes.replace(" " + classToAdd, "");
+                } 
+            }
+        }
+
+        if(show_all){
+            var elements = document.getElementsByClassName("all");
+            for(var i = 0; i < elements.length; i++) {
+                var el = elements[i]
+                el.className += " " + classToAdd;
+                }
+        } 
+    }
+
+    function change(IDs, type){
+        for(var i = 0; i < IDs.length; i++){
+            id = IDs[i]
+            if(type == "hide"){
+                preview[id] = false
+            }
+            else if(type == "show"){
+                preview[id] = true
+            }
+            else if(type == "switch"){
+                locked_in[id] = !locked_in[id]
+            }
+        }
+    }
+
+
+  	function toggleClass(ID, type){
+       
+       // change the input based on the type:
+       // types : toggle, show, hide
+       // toggle should invert the other options
+
+       if ((type == "preview" || type == "hide") && (clicked[ID] || locked_in[ID])){
+           return
+       }
+
+       
+        if(!locked_in[ID] && (!clicked[opposites[ID]] && !clicked[ID] )){
+            if(ID == "visual"){
+                change(["makes", "edits", "visual"], type)
+            }
+            else if(ID == "written"){
+                change(["makes", "edits", "written"], type)
+            }
+            else if(ID == "makes"){
+                change(["makes",  "written", "visual"], type)
+            }
+            else if(ID == "edits"){
+                change(["edits",  "written", "visual"], type)
+            }
+        }
+
+       if (type == "switch"){
+        if (clicked[opposites[ID]] && clicked[ID]){
+            clicked[opposites[ID]] = !clicked[opposites[ID]]
+            
+            locked_in[opposites[ID]] = false
+            preview[opposites[ID]] = false
+            
+        }
+        else{
+            clicked[ID] = !clicked[ID]
+            locked_in[ID] = clicked[ID] 
+            preview[ID] = clicked[ID] 
+            if(!clicked[opposites[ID]]){
+                locked_in[opposites[ID]] = false
+                preview[opposites[ID]] = false
+            }
+        }   
+       }
+       
+       updateView()
+    }
+  	
+  </script>
