@@ -53,7 +53,7 @@ export const RESUME_DATA = {
     {
       company: "Ordaos Bio",
       link: "https://ordaos.bio",
-      badges: ["Remote"],
+      badges: [],
       title: "AI Scientist II",
       logo: OrdaosLogo,
       start: "2021",
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
     {
       company: "Ordaos Bio",
       link: "https://ordaos.bio",
-      badges: ["Remote"],
+      badges: [],
       title: "AI Scientist I",
       logo: OrdaosLogo,
       start: "2021",
