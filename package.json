@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "libnpx": "^10.2.4",
-    "node": "^20.6.0"
-  }
-}
