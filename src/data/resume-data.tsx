@@ -9,9 +9,9 @@ export const RESUME_DATA = {
   location: "New York City, USA, ",
   locationLink: "https://www.google.com/maps/place/NYC",
   about:
-    "Test About",
+    "Deep Learning Practioner working in Biotech",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Deep Learning Researcher and Engineer, I.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16001690?v=4",
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
