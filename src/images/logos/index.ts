@@ -1,4 +1,4 @@
-import OrdaosLogo from "./favicon.png";
+import OrdaosLogo from "./ordaos.png";
 
 export {
   OrdaosLogo
