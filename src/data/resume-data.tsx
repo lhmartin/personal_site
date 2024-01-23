@@ -85,13 +85,11 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Deep Learning",
+    "Pytorch",
+    "Pytorch Lighting",
+    "Pytorch",
+    "Graph Neural Networks",
   ],
   projects: [
     {
