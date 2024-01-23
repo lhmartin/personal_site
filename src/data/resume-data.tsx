@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   about:
     "Deep Learning Practioner working in Biotech",
   summary:
-    "As a Deep Learning Researcher and Engineer, I.",
+    "As a Deep Learning Researcher and Engineer, I am working on advancing protein design at Ordaos Bio.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16001690?v=4",
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
@@ -59,7 +59,12 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Extended the functionality of state of the art diffusion based protein models to work within our existing \
+         generation system. Building on an opensource model, adding in conditional generation options whilst \
+maintaining the prior performance. Built in Pytorch. \
+Led the design of a novel protein optimization platform, bringing together numerous protein property prediction, \
+interaction, and numerical models. This technology is a core feature of Ordaos’ offerings and has been able to \
+improve binding by 10x, with resilience to target evolution.",
     },
     {
       company: "Ordaos Bio",
