@@ -32,7 +32,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
     email: "contact@lukeheinmartin.com",
-    tel: "+48530213401",
+    tel: "+1 609 384 5954",
     social: [
       {
         name: "GitHub",
@@ -53,15 +53,21 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "New York University",
+      degree: "Master's Degree in Computer Science",
+      start: "2019",
+      end: "2021",
+    },
+    {
+      school: "Eindhoven University of Technology",
+      degree: "Bachelor's Degree in Electrical Engineering",
+      start: "2014",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
+      company: "Ordaos Bio",
       link: "https://parabol.co",
       badges: ["Remote"],
       title: "Senior Full Stack Developer",
