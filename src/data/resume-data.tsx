@@ -76,9 +76,9 @@ export const RESUME_DATA = {
       end: "2022",
       description:
         "• Implemented portions of a generative multi-modal protein attention model using PyTorch, predicting a \
-        number of protein properties, 3D structure, and sequence. \
+        number of protein properties, 3D structure, and sequence. \n \
         • Curated the data for, implemented, designed, and trained an antibody interaction model to predict the \
-        binding strength (log Kd) value of an antibody and target pair. \
+        binding strength (log Kd) value of an antibody and target pair. \n \
         • Fine-tuned the log Kd model on in-house data, which was able to rank from a set of prospective \
         antibodies, placing 57 successful binders within the top 70 candidates, 46 of which had high affinity."        
     },
@@ -92,8 +92,8 @@ export const RESUME_DATA = {
       end: "August 2020",
       description:
       "• Built a paper ingestion system that pulled all new papers from arXiv into a database as an Azure \
-      microservice. \
-      • Worked with a colleague on a convolution vision model to detect cancer in prostate tissue slides. \
+      microservice. \n \
+      • Worked with a colleague on a convolution vision model to detect cancer in prostate tissue slides. \n  \
       • Using BERT embeddings on paper abstracts, built a paper recommendation service that recommended \
       the most relevant papers from our database of papers."
     },
@@ -106,11 +106,12 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2019",
       description:
-      "• Built a paper ingestion system that pulled all new papers from arXiv into a database as an Azure \
-      microservice. \
-      • Worked with a colleague on a convolution vision model to detect cancer in prostate tissue slides. \
-      • Using BERT embeddings on paper abstracts, built a paper recommendation service that recommended \
-      the most relevant papers from our database of papers."
+      "• Designed, implemented, and validated models of the SARB (South African Reserve Bank) cash-flow system \
+      using Tensorflow. \n \
+      • Improved the percentage accuracy over the prior existing model that predicted the movement of cash in \
+      regions across the country by up to 40%. \n \
+      • Assisted colleagues in building a model to optimize the routing of SARB cash in transit vehicles. \
+      "
     },
   ],
   skills: [
