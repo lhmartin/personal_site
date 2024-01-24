@@ -108,6 +108,7 @@ export const RESUME_DATA = {
       description:
       "• Designed, implemented, and validated models of the SARB (South African Reserve Bank) cash-flow system \
       using Tensorflow. \n \
+      \n \
       • Improved the percentage accuracy over the prior existing model that predicted the movement of cash in \
       regions across the country by up to 40%. \n \
       • Assisted colleagues in building a model to optimize the routing of SARB cash in transit vehicles. \
