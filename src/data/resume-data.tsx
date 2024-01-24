@@ -56,15 +56,15 @@ export const RESUME_DATA = {
       badges: [],
       title: "AI Scientist II",
       logo: OrdaosLogo,
-      start: "2021",
+      start: "2022",
       end: "2024",
       description:
-        "Extended the functionality of state of the art diffusion based protein models to work within our existing \
-         generation system. Building on an opensource model, adding in conditional generation options whilst \
-maintaining the prior performance. Built in Pytorch. \
-Led the design of a novel protein optimization platform, bringing together numerous protein property prediction, \
-interaction, and numerical models. This technology is a core feature of Ordaos’ offerings and has been able to \
-improve binding by 10x, with resilience to target evolution.",
+        "• Extended the functionality of state of the art diffusion based protein models to work within our existing \
+          generation system. Building on an opensource model, adding in conditional generation options whilst \
+          maintaining the prior performance. Built in Pytorch. \
+         • Led the design of a novel protein optimization platform, bringing together numerous protein property prediction, \
+          interaction, and numerical models. This technology is a core feature of Ordaos’ offerings and has been able to \
+          improve binding by 10x, with resilience to target evolution.",
     },
     {
       company: "Ordaos Bio",
@@ -73,9 +73,14 @@ improve binding by 10x, with resilience to target evolution.",
       title: "AI Scientist I",
       logo: OrdaosLogo,
       start: "2021",
-      end: "2024",
+      end: "2022",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "• Implemented portions of a generative multi-modal protein attention model using PyTorch, predicting a \
+        number of protein properties, 3D structure, and sequence. \
+        • Curated the data for, implemented, designed, and trained an antibody interaction model to predict the \
+        binding strength (log Kd) value of an antibody and target pair. \
+        • Fine-tuned the log Kd model on in-house data, which was able to rank from a set of prospective \
+        antibodies, placing 57 successful binders within the top 70 candidates, 46 of which had high affinity."        
     },
     {
       company: "Ordaos Bio",
@@ -83,10 +88,29 @@ improve binding by 10x, with resilience to target evolution.",
       badges: ["Remote"],
       title: "AI Scientist Intern",
       logo: OrdaosLogo,
-      start: "2021",
-      end: "2024",
+      start: "June 2020",
+      end: "August 2020",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      "• Built a paper ingestion system that pulled all new papers from arXiv into a database as an Azure \
+      microservice. \
+      • Worked with a colleague on a convolution vision model to detect cancer in prostate tissue slides. \
+      • Using BERT embeddings on paper abstracts, built a paper recommendation service that recommended \
+      the most relevant papers from our database of papers."
+    },
+    {
+      company: "Business Modelling Associates",
+      link: "https://www.businessmodelling.com/",
+      badges: ['South Africa'],
+      title: "Junior Data Scientist",
+      logo: null,
+      start: "2018",
+      end: "2019",
+      description:
+      "• Built a paper ingestion system that pulled all new papers from arXiv into a database as an Azure \
+      microservice. \
+      • Worked with a colleague on a convolution vision model to detect cancer in prostate tissue slides. \
+      • Using BERT embeddings on paper abstracts, built a paper recommendation service that recommended \
+      the most relevant papers from our database of papers."
     },
   ],
   skills: [
@@ -94,19 +118,43 @@ improve binding by 10x, with resilience to target evolution.",
     "Pytorch",
     "Pytorch Lighting",
     "Pytorch",
-    "Graph Neural Networks",
+    "Graph Neural Networks",    
   ],
   projects: [
     {
       title: "Competitive Programming and Problem Solving", 
       techStack: [
-        "Python"
+        "Python", "Educational"
       ],
       description: "Set of problems solved during my time at TU/e working on competitive programming problems.",
       logo: OrdaosLogo,
       link: {
         label: "CPPS",
         href: "https://github.com/lhmartin/CPPS",
+      },
+    },
+    {
+      title: "Python Machine Learning", 
+      techStack: [
+        "Python", "Educational",
+      ],
+      description: "A basic machine learning module for primarily self-education purposes.",
+      logo: OrdaosLogo,
+      link: {
+        label: "PML",
+        href: "https://github.com/lhmartin/PML",
+      },
+    },
+    {
+      title: "Context Tree weighting ", 
+      techStack: [
+        "Python", "Educational",
+      ],
+      description: "A compression algorithm called context tree weighting implemented in Python. Applied to DNA sequences",
+      logo: OrdaosLogo,
+      link: {
+        label: "CTW",
+        href: "https://github.com/lhmartin/CTW",
       },
     },
   ],
