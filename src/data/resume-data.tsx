@@ -9,9 +9,11 @@ export const RESUME_DATA = {
   location: "New York City, USA, ",
   locationLink: "https://www.google.com/maps/place/NYC",
   about:
-    "Deep Learning Practioner working in Biotech",
+    "Deep Learning Practitioner working in Biotech",
   summary:
-    "As a Deep Learning Researcher and Engineer, I am working on advancing protein design at Ordaos Bio.",
+    "As a Deep Learning Researcher and Engineer, I am working on advancing protein design at Ordaos Bio. I have ideated, designed, implemented and valideted mutliple Deep Learning models \
+    built to design better mini-protein binders, and antibodies.\
+    ",
   avatarUrl: "https://avatars.githubusercontent.com/u/16001690?v=4",
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
@@ -53,7 +55,7 @@ export const RESUME_DATA = {
     {
       company: "Ordaos Bio",
       link: "https://ordaos.bio",
-      badges: [],
+      badges: ["NYC"],
       title: "AI Scientist II",
       logo: OrdaosLogo,
       start: "2022",
@@ -69,7 +71,7 @@ export const RESUME_DATA = {
     {
       company: "Ordaos Bio",
       link: "https://ordaos.bio",
-      badges: [],
+      badges: ["NYC"],
       title: "AI Scientist I",
       logo: OrdaosLogo,
       start: "2021",
