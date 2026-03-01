@@ -11,9 +11,9 @@ export const RESUME_DATA = {
   about:
     "Deep Learning Practitioner working in Biotech",
   summary:
-    "As a Deep Learning Researcher and Engineer, I am working on advancing protein design at Ordaos Bio. I have ideated, designed, implemented and valideted mutliple Deep Learning models \
-    built to design better mini-protein binders, and antibodies.\
-    ",
+    "Senior AI Scientist with 5+ years of experience building deep learning systems for computational protein design. " +
+    "Specialized in diffusion- and flow-based generative models, graph neural networks, and large language models applied to biotech. " +
+    "Previously led protein design pipelines and optimization platforms at Ordaos Bio that achieved 10x improvements in antibody binding affinity.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16001690?v=4",
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
@@ -39,14 +39,14 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "New York University",
-      degree: "Master's Degree in Computer Science",
+      school: "New York University, Courant Institute of Mathematics",
+      degree: "Master of Science, Computer Science",
       start: "2019",
       end: "2021",
     },
     {
       school: "Eindhoven University of Technology",
-      degree: "Bachelor's Degree in Electrical Engineering",
+      degree: "Bachelor of Electrical Engineering",
       start: "2014",
       end: "2017",
     },
@@ -56,17 +56,25 @@ export const RESUME_DATA = {
       company: "Ordaos Bio",
       link: "https://ordaos.bio",
       badges: ["NYC"],
+      title: "Senior AI Scientist",
+      logo: OrdaosLogo,
+      start: "02/2022",
+      end: "01/2025",
+      description:
+        "• Led the development of robust automated protein design pipelines, combining open-source methods such as RFAntibody and Bindcraft alongside internal design methods. Deployed as Docker containers to a cloud-agnostic Kubernetes environment managed by a Redis queue, scaling resources based on demand.\n" +
+        "• Rapidly re-implemented and integrated multiple state-of-the-art deep learning research papers into the internal codebase, updating external code to use commercially licensed components.",
+    },
+    {
+      company: "Ordaos Bio",
+      link: "https://ordaos.bio",
+      badges: ["NYC"],
       title: "AI Scientist II",
       logo: OrdaosLogo,
-      start: "2022",
-      end: "2024",
+      start: "03/2021",
+      end: "02/2022",
       description:
-        "• Extended the functionality of state of the art diffusion based protein models to work within our existing \
-          generation system. Building on an opensource model, adding in conditional generation options whilst \
-          maintaining the prior performance. Built in Pytorch. \
-         • Led the design of a novel protein optimization platform, bringing together numerous protein property prediction, \
-          interaction, and numerical models. This technology is a core feature of Ordaos’ offerings and has been able to \
-          improve binding by 10x, with resilience to target evolution.",
+        "• Extended the sampling functionality of state-of-the-art diffusion-based generative protein models to work within the existing internal generation system. Fine-tuned an open-source model to add conditional classifier-free guidance whilst maintaining prior performance metrics. Built in PyTorch and PyTorch Lightning.\n" +
+        "• Led the design of a novel protein optimization platform combining prediction, interaction, and numerical models of protein properties — a core Ordaos offering that improved a SARS-CoV-2 spike protein antibody binding by 10x whilst remaining resilient to target evolution.",
     },
     {
       company: "Ordaos Bio",
@@ -74,15 +82,11 @@ export const RESUME_DATA = {
       badges: ["NYC"],
       title: "AI Scientist I",
       logo: OrdaosLogo,
-      start: "2021",
-      end: "2022",
+      start: "03/2021",
+      end: "02/2022",
       description:
-        "• Implemented portions of a generative multi-modal protein attention model using PyTorch, predicting a \
-        number of protein properties, 3D structure, and sequence. \n \
-        • Curated the data for, implemented, designed, and trained an antibody interaction model to predict the \
-        binding strength (log Kd) value of an antibody and target pair. \n \
-        • Fine-tuned the log Kd model on in-house data, which was able to rank from a set of prospective \
-        antibodies, placing 57 successful binders within the top 70 candidates, 46 of which had high affinity."        
+        "• Implemented portions of a generative multi-modal protein attention model using PyTorch, predicting protein properties, atomic positions, and sequence.\n" +
+        "• Curated data for, implemented, and trained an antibody interaction model to predict binding strength of an antibody-target pair. Fine-tuned on internal data, placing 57 successful binders within the top 70 candidates.",
     },
     {
       company: "Ordaos Bio",
@@ -90,39 +94,43 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "AI Scientist Intern",
       logo: OrdaosLogo,
-      start: "June 2020",
-      end: "August 2020",
+      start: "06/2020",
+      end: "12/2020",
       description:
-      "• Built a paper ingestion system that pulled all new papers from arXiv into a database as an Azure \
-      microservice. \n \
-      • Worked with a colleague on a convolution vision model to detect cancer in prostate tissue slides. \n  \
-      • Using BERT embeddings on paper abstracts, built a paper recommendation service that recommended \
-      the most relevant papers from our database of papers."
+        "• Built an automated Azure microservice to pull all new arXiv research papers into an ingestion system and deposit processed information into a database.\n" +
+        "• Using a BERT model, embedded all paper abstracts within the internal database and created a paper recommendation system using those embeddings.",
     },
     {
       company: "Business Modelling Associates",
       link: "https://www.businessmodelling.com/",
-      badges: ['South Africa'],
+      badges: ["South Africa"],
       title: "Junior Data Scientist",
       logo: null,
-      start: "2018",
-      end: "2019",
+      start: "07/2018",
+      end: "12/2018",
       description:
-      "• Designed, implemented, and validated models of the SARB (South African Reserve Bank) cash-flow system \
-      using Tensorflow. \n \
-      \n \
-      • Improved the percentage accuracy over the prior existing model that predicted the movement of cash in \
-      regions across the country by up to 40%. \n \
-      • Assisted colleagues in building a model to optimize the routing of SARB cash in transit vehicles. \
-      "
+        "• Designed, coded, and tested models of the South African Reserve Bank cash-flow system using Keras with TensorFlow backend, predicting necessary cash movement around the country to maintain stable reserves.\n" +
+        "• Beat the existing baseline model accuracy by up to 40%.",
     },
   ],
   skills: [
+    "Python",
+    "PyTorch",
+    "PyTorch Lightning",
+    "Docker",
+    "CometML",
+    "WandB",
+    "scikit-learn",
+    "PyMol",
+    "Biotite",
+    "Machine Learning",
     "Deep Learning",
-    "Pytorch",
-    "Pytorch Lighting",
-    "Pytorch",
-    "Graph Neural Networks",    
+    "Diffusion Models",
+    "Flow-based Generative Models",
+    "Large Language Models",
+    "Graph Neural Networks",
+    "Data Visualization",
+    "Gen AI",
   ],
   projects: [
     {
