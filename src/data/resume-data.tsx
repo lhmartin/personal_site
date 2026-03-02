@@ -137,6 +137,7 @@ export const RESUME_DATA = {
       techStack: ["Python", "PyTorch", "ESMFold", "Generative Models"],
       description: "One-step protein structure generation by applying drift-based generative modeling to ESMFold embeddings, based on the 'Generative Modeling via Drifting' paper.",
       logo: OrdaosLogo,
+      projectPage: "/projects/esm-drift",
       link: {
         label: "ESM-Drift",
         href: "https://github.com/lhmartin/ESM-Drift",
