@@ -59,7 +59,7 @@ export const RESUME_DATA = {
       title: "Senior AI Scientist",
       logo: OrdaosLogo,
       start: "01/2025",
-      end: "01/2025",
+      end: "Present",
       description:
         "• Led the development of robust automated protein design pipelines, combining open-source methods such as RFAntibody and Bindcraft alongside internal design methods. Deployed as Docker containers to a cloud-agnostic Kubernetes environment managed by a Redis queue, scaling resources based on demand.\n" +
         "• Rapidly re-implemented and integrated multiple state-of-the-art deep learning research papers into the internal codebase, updating external code to use commercially licensed components.",
