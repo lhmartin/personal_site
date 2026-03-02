@@ -13,7 +13,7 @@ export const RESUME_DATA = {
   summary:
     "Senior AI Scientist with 5+ years of experience building deep learning systems for computational protein design. " +
     "Specialized in diffusion- and flow-based generative models, graph neural networks, and large language models applied to biotech. " +
-    "Previously led protein design pipelines and optimization platforms at Ordaos Bio that achieved 10x improvements in antibody binding affinity.",
+    "Leading protein design pipelines and optimization platforms at Ordaos Bio that have achieved 10x improvements in antibody binding affinity.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16001690?v=4",
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
