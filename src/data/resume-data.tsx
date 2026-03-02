@@ -9,11 +9,11 @@ export const RESUME_DATA = {
   location: "New York City, USA, ",
   locationLink: "https://www.google.com/maps/place/NYC",
   about:
-    "Deep Learning Practitioner working in Biotech",
+    "AI Scientist — protein design, generative models, deep learning",
   summary:
-    "Senior AI Scientist with 5+ years of experience building deep learning systems for computational protein design. " +
-    "Specialized in diffusion- and flow-based generative models, graph neural networks, and large language models applied to biotech. " +
-    "Previously led protein design pipelines and optimization platforms at Ordaos Bio that achieved 10x improvements in antibody binding affinity.",
+    "AI Scientist with 5+ years building deep learning systems for computational protein design. " +
+    "Work spans diffusion and flow-based generative models, GNNs, and LLMs. " +
+    "At Ordaos Bio, designed the generative pipelines and optimization platform behind the company's core offerings — including a 10x binding improvement on a SARS-CoV-2 antibody.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16001690?v=4",
   personalWebsiteUrl: "https://www.lukeheinmartin.com/",
   contact: {
@@ -58,11 +58,11 @@ export const RESUME_DATA = {
       badges: ["NYC"],
       title: "Senior AI Scientist",
       logo: OrdaosLogo,
-      start: "02/2022",
-      end: "01/2025",
+      start: "01/2025",
+      end: "Present",
       description:
-        "• Led the development of robust automated protein design pipelines, combining open-source methods such as RFAntibody and Bindcraft alongside internal design methods. Deployed as Docker containers to a cloud-agnostic Kubernetes environment managed by a Redis queue, scaling resources based on demand.\n" +
-        "• Rapidly re-implemented and integrated multiple state-of-the-art deep learning research papers into the internal codebase, updating external code to use commercially licensed components.",
+        "• Architected automated protein design pipelines integrating RFAntibody, Bindcraft, and internal methods — deployed as Docker containers on a Kubernetes cluster with Redis queuing and dynamic resource scaling.\n" +
+        "• Ported several recent DL research papers into the internal codebase, replacing non-commercial components with licensed equivalents.",
     },
     {
       company: "Ordaos Bio",
@@ -70,11 +70,11 @@ export const RESUME_DATA = {
       badges: ["NYC"],
       title: "AI Scientist II",
       logo: OrdaosLogo,
-      start: "03/2021",
-      end: "02/2022",
+      start: "02/2022",
+      end: "01/2025",
       description:
-        "• Extended the sampling functionality of state-of-the-art diffusion-based generative protein models to work within the existing internal generation system. Fine-tuned an open-source model to add conditional classifier-free guidance whilst maintaining prior performance metrics. Built in PyTorch and PyTorch Lightning.\n" +
-        "• Led the design of a novel protein optimization platform combining prediction, interaction, and numerical models of protein properties — a core Ordaos offering that improved a SARS-CoV-2 spike protein antibody binding by 10x whilst remaining resilient to target evolution.",
+        "• Integrated diffusion-based protein generative models into the internal generation system; fine-tuned with classifier-free guidance for conditional generation without degrading benchmark performance. Built in PyTorch and PyTorch Lightning.\n" +
+        "• Designed Ordaos' core protein optimization platform — combining structure prediction, interaction scoring, and numerical property models to drive design decisions. Used to achieve a 10x binding improvement on a SARS-CoV-2 antibody while maintaining resilience to target mutation.",
     },
     {
       company: "Ordaos Bio",
@@ -85,8 +85,8 @@ export const RESUME_DATA = {
       start: "03/2021",
       end: "02/2022",
       description:
-        "• Implemented portions of a generative multi-modal protein attention model using PyTorch, predicting protein properties, atomic positions, and sequence.\n" +
-        "• Curated data for, implemented, and trained an antibody interaction model to predict binding strength of an antibody-target pair. Fine-tuned on internal data, placing 57 successful binders within the top 70 candidates.",
+        "• Built components of a multi-modal protein attention model in PyTorch, predicting sequence, atomic positions, and biophysical properties.\n" +
+        "• Designed and trained a log Kd model for antibody-antigen binding affinity prediction. After fine-tuning on internal data, the model ranked prospective antibodies such that 57 successful binders fell within the top 70 candidates.",
     },
     {
       company: "Ordaos Bio",
@@ -97,8 +97,8 @@ export const RESUME_DATA = {
       start: "06/2020",
       end: "12/2020",
       description:
-        "• Built an automated Azure microservice to pull all new arXiv research papers into an ingestion system and deposit processed information into a database.\n" +
-        "• Using a BERT model, embedded all paper abstracts within the internal database and created a paper recommendation system using those embeddings.",
+        "• Built an Azure microservice to continuously ingest new arXiv papers into an internal database.\n" +
+        "• Embedded paper abstracts with BERT and built a similarity-based recommendation system to surface relevant literature.",
     },
     {
       company: "Business Modelling Associates",
@@ -109,8 +109,7 @@ export const RESUME_DATA = {
       start: "07/2018",
       end: "12/2018",
       description:
-        "• Designed, coded, and tested models of the South African Reserve Bank cash-flow system using Keras with TensorFlow backend, predicting necessary cash movement around the country to maintain stable reserves.\n" +
-        "• Beat the existing baseline model accuracy by up to 40%.",
+        "• Built Keras/TensorFlow models to forecast regional cash-flow requirements across the South African Reserve Bank's network, outperforming the existing baseline by up to 40%.",
     },
   ],
   skills: [
@@ -134,7 +133,37 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Competitive Programming and Problem Solving", 
+      title: "ESM-Drift",
+      techStack: ["Python", "PyTorch", "ESMFold", "Generative Models"],
+      description: "One-step protein structure generation by applying drift-based generative modeling to ESMFold embeddings, based on the 'Generative Modeling via Drifting' paper.",
+      logo: OrdaosLogo,
+      link: {
+        label: "ESM-Drift",
+        href: "https://github.com/lhmartin/ESM-Drift",
+      },
+    },
+    {
+      title: "DesignCampaign",
+      techStack: ["Python", "Protein Design"],
+      description: "Open-source tool for visualizing, curating, and filtering protein drug design campaigns. Built to manage large sets of design candidates across multiple runs.",
+      logo: OrdaosLogo,
+      link: {
+        label: "DesignCampaign",
+        href: "https://github.com/lhmartin/DesignCampaign",
+      },
+    },
+    {
+      title: "Transformer",
+      techStack: ["Python", "PyTorch"],
+      description: "PyTorch implementation of the original 'Attention Is All You Need' transformer, trained on German-to-English translation.",
+      logo: OrdaosLogo,
+      link: {
+        label: "transformer",
+        href: "https://github.com/lhmartin/transformer",
+      },
+    },
+    {
+      title: "Competitive Programming and Problem Solving",
       techStack: [
         "Python", "Educational"
       ],
