@@ -58,7 +58,7 @@ export const RESUME_DATA = {
       badges: ["NYC"],
       title: "Senior AI Scientist",
       logo: OrdaosLogo,
-      start: "02/2022",
+      start: "01/2025",
       end: "01/2025",
       description:
         "• Led the development of robust automated protein design pipelines, combining open-source methods such as RFAntibody and Bindcraft alongside internal design methods. Deployed as Docker containers to a cloud-agnostic Kubernetes environment managed by a Redis queue, scaling resources based on demand.\n" +
@@ -70,8 +70,8 @@ export const RESUME_DATA = {
       badges: ["NYC"],
       title: "AI Scientist II",
       logo: OrdaosLogo,
-      start: "03/2021",
-      end: "02/2022",
+      start: "02/2022",
+      end: "01/2025",
       description:
         "• Extended the sampling functionality of state-of-the-art diffusion-based generative protein models to work within the existing internal generation system. Fine-tuned an open-source model to add conditional classifier-free guidance whilst maintaining prior performance metrics. Built in PyTorch and PyTorch Lightning.\n" +
         "• Led the design of a novel protein optimization platform combining prediction, interaction, and numerical models of protein properties — a core Ordaos offering that improved a SARS-CoV-2 spike protein antibody binding by 10x whilst remaining resilient to target evolution.",
