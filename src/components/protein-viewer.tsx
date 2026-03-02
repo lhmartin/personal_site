@@ -30,7 +30,6 @@ export function ProteinViewer({ structures }: Props) {
   const [stageReady, setStageReady] = useState(false);
 
   const containerRef = useRef<HTMLDivElement>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const stageRef = useRef<any>(null);
 
   // Initialise NGL stage once
@@ -76,7 +75,6 @@ export function ProteinViewer({ structures }: Props) {
 
     stage
       .loadFile(`rcsb://${selected.id}`, { defaultRepresentation: false })
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .then((component: any) => {
         if (cancelled) return;
         component.addRepresentation(repr.value, {
